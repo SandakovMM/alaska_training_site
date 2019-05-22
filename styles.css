@@ -235,6 +235,23 @@ hr {
     margin-bottom: 0;
 }
 
+/* ------------ CONTACT PART----------------- */
+section.flexbox-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+section.flexbox-section p {
+    max-width: 900px;
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
 /* ------------ FOOTER PART ----------------- */
 
 footer {
